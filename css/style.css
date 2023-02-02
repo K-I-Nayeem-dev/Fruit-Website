@@ -1458,7 +1458,7 @@ footer .footer_input .footer_input_main:hover .footer_input_btn {
 #top_rated_products .top_rated_items .top_rated_img::after {
   position: absolute;
   content: "";
-  background: url("../../images/topr (4).png") no-repeat center/cover;
+  background: url("../images/topr (4).png") no-repeat center/cover;
   width: 100%;
   height: 100%;
   top: 0;
