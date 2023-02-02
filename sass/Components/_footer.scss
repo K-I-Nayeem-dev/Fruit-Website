@@ -1,0 +1,97 @@
+footer{
+    padding: 130px 0;
+    background-color: #F8F8F8;
+    .footer_head{
+
+        h3{
+            font-family: 'Rye', cursive; 
+            color: #477018;
+            margin-bottom: 20px;
+            font-weight: 30px;
+            line-height: 37px;
+        }
+        p{
+            color: #6c6c6c;
+            margin-bottom: 6px;
+        }
+    }
+    .footer_header{
+        h5{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 40px;
+            color: #363636;
+        }
+    }
+    .footer_list{
+        ul{
+            li{
+                a{
+                    color: #6c6c6c;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .footer_input{
+        p{
+            color: #6c6c6c;
+            margin-bottom: 40px;
+        }
+        .footer_input_main{
+            position: relative;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            input{
+                padding: 14px 110px 14px 16px;
+                border: 1px solid #c9c9c9;
+                outline: none;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                &::placeholder{
+                    color: #6767675C;
+                }
+            }
+            .footer_input_btn{
+                position: absolute;
+                left: 0;
+                transition: 1s;
+                -webkit-transition: 1s;
+                -moz-transition: 1s;
+                -ms-transition: 1s;
+                -o-transition: 1s;
+                a{
+                    padding: 14px 28px;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    background-color: #F47606;
+                    color: #fff;
+                    font-weight: 600;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    &:hover{
+                        background-color: black;
+                    }
+                }
+            }
+            &:hover{
+                .footer_input_btn{
+                    left: 280px;
+                }
+            }
+        }
+    }
+}

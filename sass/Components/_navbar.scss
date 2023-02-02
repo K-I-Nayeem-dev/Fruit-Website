@@ -1,0 +1,76 @@
+.menu_bg{
+    padding: 16px 0 !important;
+    ul{
+        li{
+            a{
+                color: #000 !important;
+                padding: 0 30px !important;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                position: relative;
+                &:hover{
+                    color: #477018 !important;
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                    font-weight: 500;
+                }
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width: 0%;
+                    height: 2px;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: #477018;
+                    -webkit-transform: translate(-50%, -50%);
+                    -moz-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    -o-transform: translate(-50%, -50%);
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    opacity: 0;
+                }
+                &:hover::after{
+                    width: 70%;
+                    bottom: -6px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.navbar-brand{
+    font-family: 'Rye', cursive;
+    font-size: 30px;
+    color: #477018 !important;
+}
+.nav_shop{
+    i{
+        font-size: 20px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        cursor: pointer;
+        margin-right: 16px;
+        &:hover{
+            color: #477018;
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+    }
+}

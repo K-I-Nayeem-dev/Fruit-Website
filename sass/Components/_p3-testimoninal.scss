@@ -1,0 +1,102 @@
+#p3_testimonial{
+    padding-bottom: 130px;
+    .testi_head{
+        margin-bottom: 53px;
+        h2{
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 42px;
+        }
+        .testi_btn{
+            a{
+                line-height: 28px;
+                color: #676767;
+                margin-right: 20px;
+            }
+            i{
+                line-height: 28px;
+                color: #676767;
+            }
+        }
+    }
+    .testi_1_items{
+        padding: 82px 46px;
+        border: 0.5px solid #C9C9C9;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        img{
+            margin-bottom: 30px;
+        }
+        p{
+            line-height: 28px;
+            color: #676767;
+            margin-bottom: 30px;
+            padding-right: 80px;
+        }
+        .testi_profile_1{
+            .inner_testi_img{
+                img{
+                    margin-right: 20px;
+                }
+            }
+            .inner_testi_text{
+                h6{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                p{
+                    color: #676767;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+    .testi_2_items{
+        padding: 33px 46px;
+        border: 0.5px solid #C9C9C9;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin-bottom: 24px;
+        p{
+            line-height: 28px;
+            color: #676767;
+            margin-bottom: 20px;
+        }
+        .testi_profile_1{
+            position: relative;
+            .inner_testi_img{
+                img{
+                    margin-right: 20px;
+                }
+            }
+            .inner_testi_text{
+                h6{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                p{
+                    color: #676767;
+                    line-height: 28px;
+                }
+                img{
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    -webkit-transform: translateY(-50%);
+                    -moz-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                    -o-transform: translateY(-50%);
+                }
+            }
+        }
+    }
+}

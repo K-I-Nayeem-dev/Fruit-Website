@@ -1,0 +1,33 @@
+#deal{
+    padding-bottom: 130px;
+     .deal_items{
+        position: relative;
+        .deal_text{
+            position: absolute;
+            top: 67px;
+            left: 53px;
+            z-index: 1;
+            p{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 10px;
+            }
+            h5{
+                font-weight: 700;
+                font-size: 20px;
+                margin-bottom: 10px;
+                padding-right: 100px;
+                line-height: 28px;
+            }
+            .deal_btn{
+                a{
+                  font-weight: 600;  
+                  font-size: 20px;
+                  color: #F47606;
+                  text-decoration: underline;
+                }
+            }
+        }
+     }
+}

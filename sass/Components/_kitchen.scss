@@ -1,0 +1,36 @@
+#kitchen{
+    padding-bottom: 130px;
+    .kitchen_items{
+        .kitchen_img{
+            position: relative;
+            .kitchen_over{
+                position: absolute;
+                top: 73px;
+                left: 32px;
+                p{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                    color: #F47606;
+                }
+                h4{
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    margin-bottom: 20px;
+                    padding-right: 340px;
+                }
+                .kitchen_btn{
+                    a{
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 28px;
+                        text-decoration: underline;
+                        color: #F47606;
+                    }
+                }
+            }
+        }
+    }
+}

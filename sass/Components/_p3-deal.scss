@@ -1,0 +1,49 @@
+#p3_deal{
+    padding-bottom: 50px;
+    .p3_deal_head{
+        h2{
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 42px;
+        }
+    }
+    .p3_deal_timer_main{
+        .p3_deal_timer{
+            margin-right: 40px;
+            width: 70px;
+            height: 70px;
+            padding-top: 11px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            background-color: #F47606;
+            p{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px; 
+                color: #fff;
+            }
+            span{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                color: #fff;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.p3_deal2{
+    background-color: #F9F9F9 !important;
+    p{
+        color: #F47606 !important;
+    }
+    span{
+        color: #F47606 !important;
+    }
+}

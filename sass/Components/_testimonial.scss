@@ -1,0 +1,88 @@
+#testi{
+    padding: 130px 0;
+    background-color: #F8F8F8;
+    position: relative;
+    .testi_slider{
+        position: absolute;
+        bottom: 135px;
+        left: 180px;
+        z-index: 1;
+        .next{
+            margin-right: 10px;
+            cursor: pointer;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                color: #F47606;
+            }
+        }
+        .prev{
+            cursor: pointer;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                color: #F47606;
+            }
+        }
+    }
+    .testi_main{
+        .testi_items{
+            .testi_head{
+                h4{
+                    font-weight: 700;
+                    font-size: 35px;
+                    line-height: 42px;
+                    margin-bottom: 27px;
+                }
+            }
+            .testi_text{
+                img{
+                    margin-bottom: 27px;
+                }
+                ul{ 
+                    display: flex;
+                    margin-bottom: 32px;
+                    li{
+                        margin-right: 5px;
+                        i{
+                            width: 16px;
+                            height: 16px;
+                            color: #FFC24B;
+                        }
+                    }
+                }
+                p{
+                    line-height: 28px;
+                    color: #6c6c6c;
+                    padding-right: 150px;
+                    margin-bottom: 19px;
+                }
+            }
+            .testi_profile{
+                .testi_pro_img{
+                    img{
+                        margin-right: 27px;
+                    }
+                }
+                .testi_pro_text{
+                    h5{
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 28px;
+                        color: #363636;
+                    }
+                    h6{
+                       color: #6c6c6c; 
+                       line-height: 28px;
+                    }
+                }
+            }
+        }
+    }
+}

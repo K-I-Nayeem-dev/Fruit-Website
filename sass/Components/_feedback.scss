@@ -1,0 +1,54 @@
+#feedback{
+    padding-bottom: 130px;
+    .feed_head{
+        margin-bottom: 50px;
+        h2{
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 42px; 
+        }
+    }
+    .feed_items{
+        padding: 55px 59px;
+        ul{
+            display: flex;
+            li{
+                i{
+                    color: #FFC24B;
+                    margin-right: 6px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        p{
+            color: #6c6c6c;
+            line-height: 28px;
+            margin-bottom: 20px;
+            padding-right: 100px;
+        }
+        .customer_Profile{
+            position: relative;
+            .cus_dp{
+                img{
+                    margin-right: 27px;
+                }
+            }
+            .cus_dp_name{
+                h6{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                p{
+                    line-height: 28px;
+                    color: #6c6c6c;
+                }
+            }
+            .cus_over{
+                position: absolute;
+                top: 5px;
+                right: 100px;
+            }
+        }
+    }
+}

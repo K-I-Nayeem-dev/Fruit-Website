@@ -1,0 +1,29 @@
+#p5_banner{
+    padding: 115px 0;
+    margin: 50px 0 70px 0;
+    background: url(../../images/about_us.png) no-repeat center / cover;
+    h4{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+    nav{
+        ol{
+            li{
+                color: #000;
+                a{
+                    color: #000;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    &:hover{
+                        color: #F47606;
+                    }
+                }
+            }
+        }
+    }
+}

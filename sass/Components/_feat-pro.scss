@@ -1,0 +1,99 @@
+#feat_pro{
+    padding-bottom: 130px;
+    .featPro_head{
+        margin-bottom: 50px;
+        h2{
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 42px;
+        }
+        .feat_head_over{
+            a{
+                color: #F47606;
+                margin-right: 20px;
+            }
+            i{
+                color: #F47606;
+            }
+        }
+    }
+   .feed_items{
+    .feat_img{
+        position: relative;
+        margin-bottom: 30px;
+        overflow: hidden;
+        .feat_over{
+            ul{
+                position: absolute;
+                bottom: -50px;
+                left: 20%;
+                transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.9);
+                -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.9);
+                -moz-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.9);
+                -ms-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.9);
+                -o-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.9);
+                li{
+                    a{
+                        width: 47px;
+                        height: 47px;
+                        text-align: center;
+                        line-height: 47px;
+                        font-size: 20px;
+                        background-color: #fff;
+                        margin-right: 16px;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        color: #676767;
+                        transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        -webkit-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        -moz-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        -ms-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        -o-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        &:hover{
+                            background-color: #F47606;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .feat_text{
+        ul{
+            margin-bottom: 12px;
+            li{
+                i{
+                    color: #FFAE00;
+                    font-size: 15px;
+                    margin-right: 5px;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+        p{
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 12px;
+        }
+        h5{
+            font-weight: 600;
+            font-size: 20px;
+            font-size: 24px;
+        }
+    }
+    &:hover{
+        .feat_img{
+            .feat_over{
+                ul{
+                    bottom: 30px;
+                }
+            }
+        }
+    }
+   }
+}
